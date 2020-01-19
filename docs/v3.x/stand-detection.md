@@ -4,18 +4,6 @@ v3.x introduces stand/holder detection feature. v3.0 to 3.2 only supports hardwa
 
 This document aimed to guide you for using this feature on your v3.x soldering iron controller.
 
-## v3.0 to v3.2
-
-These models provides stand detection input via 2-pin JST-XH connector on its PCB. Refer the image below for connector location. It is designated by X3 and located behind the menu knob.
-
-![standpin-v32](assets/standpin-v32.png)
-
-If you short these two pins, say, with a microswitch, the controller detects it and will enter standby mode and lowers the temperature, which is selectable on the menu. The microswitch should mount in a way that closes (or opens) when the iron handle put on the stand.
-
-You may use Hakko holders with simple modification, because they are already have a microswitch. Or you can make your own, here is a some inspiration https://www.instagram.com/p/BsTXX4Ancvv/ .
-
-
-
 ## v3.3x
 
 v3.3 controllers able to detect the tool electrically just like the original unit. In addition to JST-XH header, it is able to use the (normally unused) middle iron connector pin (pin 6) as a detection input. When used with a compatible stand, it supports stand detection out of the box.
@@ -67,3 +55,18 @@ Grab a multimeter and remove the screws from stand. You have a male socket on th
 
 Make sure it is correct one more time and it is done. Connect your T245 handpiece to stand, connect the stand to the controller. Select stand detection active low setting from the menu and you're done.
 
+
+
+---
+
+
+
+## v3.0 to v3.2
+
+These models provides stand detection input via 2-pin JST-XH connector on its PCB. Refer the image below for connector location. It is designated by X3 and located behind the menu knob.
+
+![standpin-v32](assets/standpin-v32.png)
+
+If you short these two pins, say, with a microswitch, the controller detects it and will enter standby mode and lowers the temperature, which is selectable on the menu. The microswitch should mount in a way that closes (or opens) when the iron handle put on the stand.
+
+You may use Hakko holders with simple modification, because they are already have a microswitch. Or you can make your own, here is a some inspiration https://www.instagram.com/p/BsTXX4Ancvv/ .
