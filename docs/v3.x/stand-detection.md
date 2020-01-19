@@ -8,7 +8,7 @@ This document aimed to guide you for using this feature on your v3.x soldering i
 
 These models provides stand detection input via 2-pin JST-XH connector on its PCB. Refer the image below for connector location. It is designated by X3 and located behind the menu knob.
 
-![standpin-v32](assets\standpin-v32.png)
+![standpin-v32](assets/standpin-v32.png)
 
 If you short these two pins, say, with a microswitch, the controller detects it and will enter standby mode and lowers the temperature, which is selectable on the menu. The microswitch should mount in a way that closes (or opens) when the iron handle put on the stand.
 
